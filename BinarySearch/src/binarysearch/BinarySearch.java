@@ -12,7 +12,8 @@ public class BinarySearch {
     /**
      * @param args the command line arguments
      */
-    //hihihahaha
+    //khong hihihaha nưa 
+    // thử cái khác
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
@@ -75,16 +76,6 @@ public class BinarySearch {
         }
     }
 
-    /**
-     * searches for a value in sorted array
-     *
-     * @param array array to search in
-     * @param value searched value
-     * @param left index of left boundary
-     * @param right index of right boundary
-     * @return position of searched value, if it presents in the array or -1, if
-     * it is absent
-     */
     int binarySearch(int[] array, int value, int left, int right) {
         if (left > right) {
             return -1;
