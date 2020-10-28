@@ -15,14 +15,14 @@ public class BinarySearch {
     //khong hihihaha nưa 
     // thử cái khác
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         
         System.out.println("Enter number of array:");
-        int length = scanner.nextInt();
-        scanner.nextLine();
+        int length = sc.nextInt();
+        sc.nextLine();
         
         System.out.println("Enter search value:");
-        int search = scanner.nextInt();
+        int search = sc.nextInt();
         
         int[] array = new int[length];
         for (int i = 0; i < length; i++) {
